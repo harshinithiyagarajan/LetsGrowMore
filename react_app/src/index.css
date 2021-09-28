@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  border: 0;
+  background-image: url("D:/html files/react_app/src/bgimage2.jpg")
+}
+.navbar div{
+  display: inline-block;
+  margin: 20px;
+}
+.navbar{
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 5px 5px 5px black;
+}
+.heading{
+  color:white;
+  font-weight: bolder;
+  font-size:x-large;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  margin: 20px; 
+}
+.click{
+  padding-left: 55%;
+}
+.click button {
+  color: red;
+  background-color: white;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:x-large;
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  transition: .5s ease-in-out;
+  border: 5px solid black;
+}
+button:hover {
+  border: 5px solid white;
+  color: white;
+  background-color: red;
+}
+.container{
+  width: 100%;
+  text-align: center;
+}
+.person{
+  margin: 30px;
+  width: 350px;
+  height: fit-content;
+  background-color: white;
+  display: inline-block;
+  transition: 0.5 ease;  
+  background-color: rgb(204, 192, 192);
+  border-radius: 25px;
+  border: 5px solid yellowgreen;
+}
+.person:hover {
+  transform: translate3d(-5px,-5px,-5px);
+  box-shadow: 2px 2px 5px 5px yellow;
+}
+.name {
+  text-align: center;
+  font-family: "Times New Roman", "Times, serif";
+  font-size:x-large;
+  font-weight: bold;
+  margin: 2%;
+  }
+.mail{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(14, 14, 133);
+}
+img{
+  padding: 10px;
+  width: 150px;
+  border-radius: 100%;
+}
